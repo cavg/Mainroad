@@ -1,5 +1,5 @@
 baseurl = "/"
-title = "Mainroad"
+title = "Nombre de mi empresa"
 languageCode = "en-us"
 paginate = "10" # Number of posts per page
 theme = "mainroad"
@@ -13,12 +13,12 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
 
 
 [Params]
-    subtitle = "Just another site" # Subtitle of your site
+    subtitle = "Frase descriptiva de su empresa" # Subtitle of your site
     description = " John Doe's Personal blog about everything" # Description of your site
     opengraph = true
     readmore = false # Show "Read more" button in list if true
     leftsidebar = false # Move sidebar to the left side if true
-    authorbox = true
+    authorbox = false
     post_navigation = true
     postSections = ["post"]
 
@@ -29,3 +29,24 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
     categories = true # Enable "Categories" widget
     tags = true # Enable "Tags" widget
         tags_counter = false # Enable counter for each tag in "Tags" widget (disabled by default)
+
+
+[[menu.main]]
+    url = "/quienes-somos/"
+    name = "Quienes Somos"
+    weight = 2
+
+[[menu.main]]
+    url = "/servicios/"
+    name = "Servicios"
+    weight = 3
+
+[[menu.main]]
+    url = "/contacto/"
+    name = "Contáctanos"
+    weight = 4
+
+[[menu.main]]
+    url = "/ubicacion/"
+    name = "Ubicación"
+    weight = 5
